@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>My game | TEngine</title>
+<style>
+	body{background: linear-gradient(to right,#379a55,#166b3f)}
+	canvas {border: 1px solid}
+	h1{background-image: linear-gradient(#21c2e1,#21c0de);-webkit-background-clip: text;color: transparent!important}
+	#texto{color: #fff;text-transform: capitalize;font-size: 1.5em;margin: 10px 0}
+	button{
+		padding: 5px 20px;
+	    background: none;
+	    border: none;
+	    border-bottom: 4px solid #21c0de;
+	    transition: .2s linear all;
+	}
+	button:hover{background: #16a2bd}
+</style>
+<meta charset="UTF-8">
+
+</head>
+<body>
+	<center><h1>TEngine</h1>
+	<p id="texto"></p>
+	<canvas width="480" height="320" id="canvas">
+
+	Actualiza tu navegador para ver este contenido</canvas><br><br>
+	<button id="boton">Play</button> &nbsp; &nbsp; &nbsp; 
+	<a id="restart" href="index.html"><button id="boton2">Restart</button></a>
+	</center>
+	<script type="application/javascript" src="librerias/tengine_draw.js"></script>
+	<script type="application/javascript" src="librerias/tengine_collisions.js"></script>
+	<script type="application/javascript" src="tengine-template.js"></script>
+</body>
+</html>
